@@ -29,9 +29,15 @@ h2 {
 
 p {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1.5px;
   line-height: 1.1em;
+  margin-bottom: 1px;
+  margin-top: 10px;
+}
+
+#career-field {
+  margin-top: 20px;
 }
 
 header {
@@ -70,7 +76,8 @@ button {
 
 article img {
   display: block;
-  height: 69px;
+  height: 20%;
+  padding-bottom: 6px;
 }
 
 .left-side {
@@ -124,6 +131,15 @@ article img {
 
 .button-wrapper {
   margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#contact-button {
+  margin-left: 15px;
+}
+
+#resume-button {
+  margin-right: 15px;
 }
 
 .article1,
