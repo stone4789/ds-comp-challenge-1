@@ -5,4 +5,4 @@ The static comp challenge is a series of three challenges to keep you working th
 ![alt text](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
 
 **_My Version_**
-![alt text] ()
+![alt text](https://github.com/stone4789/ds-comp-challenge-1/blob/master/my_version.jpg)
