@@ -96,9 +96,9 @@ article p {
 }
 
 .right-side {
+  align-items: center;
   background: url(images/sweater_corgi.jpg) no-repeat;
   background-size: 100% 100%;
-  align-items: center;
   background-position: center;
   display: flex;
   height: 100vh;
@@ -155,8 +155,8 @@ button {
 }
 
 .button-wrapper {
-  margin-top: 20px;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 #contact-button {
@@ -269,3 +269,114 @@ button {
     width: 100%;
   }
 }
+
+
+
+
+/*
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.grid-container {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+            "a a b c c "
+            "d e f c c "
+            "g h i c c ";
+}
+
+.grid-container>section {
+    text-align: center;
+    margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  color: white;
+  border: 1px solid white;
+  align-self: center;
+
+}
+
+.a {
+  grid-area: a;
+  grid-template-areas: 1 / 1 / 2 / 2;
+  background-color: rgb(113, 187, 125);
+  width: 400px;
+  height: 200px;
+
+}
+
+
+.b {
+  grid-area: b;
+  grid-template-areas: 1 / 2 / 2 / 3;
+  background-color: rgb(232, 157, 37);
+  width: 200px;
+  height: 200px;
+}
+
+.c {
+
+  grid-template-areas: 1 / 4 / 4 / 6;
+  background-color: black;
+  width: 600px; 
+  height: 100%;
+  
+}
+
+.d {
+  grid-template-areas: 2 / 1 /  3 / 2;
+  background-color: rgb(82, 138, 193);
+  grid-area: d; 
+  width: 200px;
+  height: 200px;
+}
+
+.e {
+  grid-template-areas: 2 / 2 / 3 / 3;
+  background-color: rgb(211, 91, 75);
+  grid-area: e;
+  width: 200px;
+  height: 200px;
+}
+
+.f {
+  grid-template-areas: 2 / 3 / 3 / 4 ;
+  background-color: rgb(113, 187, 125);
+  grid-area: f;
+  width: 200px;
+  height: 200px;
+}
+
+.g {
+  grid-template-areas: 3 / 1 / 4 / 2 ;
+  background-color: rgb(219, 104, 47);
+  grid-area: g;
+  width: 200px;
+  height: 200px;
+}
+
+.h {
+  grid-template-areas: 3 / 2 / 4 / 3 ;
+  background-color: rgb(82, 138, 193);
+  grid-area: h;
+  width: 200px;
+  height: 200px;
+}
+
+.i {
+  grid-template-areas:  4 / 3 / 5 / 4 ;
+  background-color: rgb(219, 104, 47);
+  grid-area: i;
+  width: 200px;
+  height: 200px;
+} 
+
+*/
