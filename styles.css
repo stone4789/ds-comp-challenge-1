@@ -68,7 +68,7 @@ button {
   border-radius: 0px;
   border: 2px solid #fff;
   color: #fff;
-  font-size: 1em;
+  font-size: 0.7em;
   height: 30px;
   margin-right: 10px;
   width: 100px;
@@ -80,6 +80,13 @@ article img {
   padding-bottom: 6px;
 }
 
+.scroll {
+  background-color: white;
+}
+
+article p {
+  font-size: 14px;
+}
 .left-side {
   display: flex;
   flex-wrap: wrap;
@@ -130,11 +137,21 @@ article img {
 }
 
 #scroll-prev {
-
+  background-image: url('/images/prev.svg');
 }
 
 #scroll-next {
-  
+  background-image: url('/images/next.svg');
+}
+
+input:hover {
+  background-color: #00FFFFFF;
+}
+
+button {
+  padding-bottom: 5px;
+  padding-top: 5px;
+
 }
 
 .button-wrapper {
