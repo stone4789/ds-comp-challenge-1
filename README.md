@@ -3,3 +3,6 @@ The static comp challenge is a series of three challenges to keep you working th
 
 **_Original Example_**
 ![alt text](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
+
+**_My Version_**
+![alt text] ()
