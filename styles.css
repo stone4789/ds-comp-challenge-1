@@ -76,7 +76,7 @@ button {
 
 article img {
   display: block;
-  height: 20%;
+  height: 25%;
   padding-bottom: 6px;
 }
 
@@ -127,6 +127,14 @@ article img {
   margin: 20px;
   opacity: .7;
   width: 50px;
+}
+
+#scroll-prev {
+
+}
+
+#scroll-next {
+  
 }
 
 .button-wrapper {
